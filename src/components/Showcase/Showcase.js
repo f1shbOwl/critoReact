@@ -5,7 +5,7 @@ import img_ShowCaseImage from '../../assets/images/showcase-image.svg'
 
 const Showcase = () => {
   return (
-    <div className="showcase">
+    <section className="showcase">
         <div className="container">
             <div className="content">
                 <h1>We Provide The Best Business Solutions</h1>
@@ -15,7 +15,7 @@ const Showcase = () => {
             </div>
             <img src={img_ShowCaseImage} alt="image of a man in a suit with a tablet" />
         </div>
-    </div>
+    </section>
   )
 }
 
